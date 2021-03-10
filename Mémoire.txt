@@ -61,11 +61,16 @@ Parfois, il est plus facile d'inverser des conditions très très très complexe
 On remarque que l'inverse d'un ET est un OU et l'inverse d'un OU est un ET.
 
 Table de Vérité NON(A ET B)
-Si A = 0, B = 0 Alors NON(A ET B) = 1  (Par exemple NON(Age = 17 et Nationalite='Français') devient Age != 17 OU Nationalite != 'Francais'  )
-Si A = 0, B = 1 Alors NON(A ET B) = 0  (Par exemple NON(Age = 17 et Nationalite='Belge')    devient Age != 17 OU Nationalite != 'Belge'     )
-Si A = 1, B = 0 Alors NON(A ET B) = 0  (Par exemple NON(Age = 22 et Nationalite='Français') devient Age != 22 OU Nationalite != 'Francais'  )
-Si A = 1, B = 1 Alors NON(A ET B) = 0  (Par exemple NON(Age = 22 et Nationalite='Belge')    devient Age != 22 OU Nationalite != 'Belge'     )
+Si A = 0, B = 0 Alors NON(A ET B) = NON A OU NON B = 1  (Par exemple NON(Age = 17 ET Nationalite='Français') devient Age != 17 OU Nationalite != 'Francais'  )
+Si A = 0, B = 1 Alors NON(A ET B) = NON A OU NON B = 1  (Par exemple NON(Age = 17 ET Nationalite='Belge')    devient Age != 17 OU Nationalite != 'Belge'     )
+Si A = 1, B = 0 Alors NON(A ET B) = NON A OU NON B = 1  (Par exemple NON(Age = 22 ET Nationalite='Français') devient Age != 22 OU Nationalite != 'Francais'  )
+Si A = 1, B = 1 Alors NON(A ET B) = NON A OU NON B = 0  (Par exemple NON(Age = 22 ET Nationalite='Belge')    devient Age != 22 OU Nationalite != 'Belge'     )
 
+Table de Vérité NON(A OU B)
+Si A = 0, B = 0 Alors NON(A OU B) = NON A ET NON B = 1  (Par exemple NON(Age = 17 OU Nationalite='Français') devient Age != 17 ET Nationalite != 'Francais'  )
+Si A = 0, B = 1 Alors NON(A OU B) = NON A ET NON B = 0  (Par exemple NON(Age = 17 OU Nationalite='Belge')    devient Age != 17 ET Nationalite != 'Belge'     )
+Si A = 1, B = 0 Alors NON(A OU B) = NON A ET NON B = 0  (Par exemple NON(Age = 22 OU Nationalite='Français') devient Age != 22 ET Nationalite != 'Francais'  )
+Si A = 1, B = 1 Alors NON(A OU B) = NON A ET NON B = 0  (Par exemple NON(Age = 22 OU Nationalite='Belge')    devient Age != 22 ET Nationalite != 'Belge'     )
 
 
 
