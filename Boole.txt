@@ -8,7 +8,7 @@ A la question suivante "Votre age est-il plus grand que 18 ?" on ne peut répond
 L'exemple précédent pourrait s'écrire plus succintement: Age > 18    Car dans un language de programmation on utilise des variables et non des phrases ainsi que des opérateurs de comparaison.
 Voici les opérateurs de comparaison les plus utilisés: 
 - d'égalité             ==
-- d'inégalité           <> ou bien !=
+- d'inégalité           <> ou bien != en python, C, C#, Java, PHP, etc...
 - strictement inférieur <
 - inférieur ou égal     <=
 - strictement supérieur >
@@ -16,7 +16,7 @@ Voici les opérateurs de comparaison les plus utilisés:
 Ces opérateurs peuvent s'écrirent différements d'un langage à un autre.
 
 Maintenant, on se pose la question suivante:"Votre age est-il plus grand que 18 ET votre nationalité est-elle belge ?"
-On va la simplifier en utilisant des variabmes: Age > 18 ET Nationalite == 'Belge'
+On va la simplifier en utilisant des variables: Age > 18 ET Nationalite == 'Belge'
 Ici, il n'y a toujours qu'une seule réponse: "vrai" ou "faux". Mais pour répondre à cette question, il faut répondre à deux autres auparavant.
 1) Age > 18 ?   vrai car 22 > 18
 2) Nationalite == 'Belge' ?   vrai car 'Belge' = 'Belge' 
@@ -45,7 +45,7 @@ A = Age > 18.
 La négation de A c'est NON A. Qui s'écrit NON (Age > 18) ou encore Age <= 18.
 On constate quelque chose d'intéressant. L'opérateur de comparaison > a changé avec la négation et est devenu <=.
 On peut déduire les autres aussi très facilement:
-A = Age == 18   la négation de A devient Age <> 18
+A = Age == 18   la négation de A devient Age != 18
 A = Age <> 18   la négation de A devient Age == 18
 A = Age > 18    la négation de A devient Age <= 18
 A = Age >= 18   la négation de A devient Age < 18
@@ -55,10 +55,12 @@ A = Age <= 18   la négation de A devient Age > 18
 Il me fait bien rire lui avec ses négations. C'est un peu se chatouiller pour se faire rire non ? Encore un truc de matheux pour qu'on n'y pige plus rien ! :)
 Je vais vous donner un exemple et sa négation.
 Exemple: J'ai un formulaire qui enregistre les personnes qui ont l'âge de travailler.
-La condition pourrait s'écrire: Age > 18 ET Age < 65
-Et un autre formulaire pour les autres. La condition inverse peut s'écrire ainsi: Age <= 18 OU Age >=65 et en employant l'opérateur NON la condition devient NON(Age > 18 ET Age < 65)
+La condition pourrait s'écrire: Age >= 18 ET Age < 65
+Et un autre formulaire pour les autres. La condition inverse peut s'écrire ainsi: Age < 18 OU Age >=65. En employant l'opérateur NON la condition devient NON(Age >= 18 ET Age < 65) = Age < 18 OU Age >= 65
 Parfois, il est plus facile d'inverser des conditions très très très complexe avec l'opérateur NON.
-On remarque que l'inverse d'un ET est un OU et l'inverse d'un OU est un ET.
+On remarque que:
+- l'inverse d'une expression comprenant un ET est une expression contenant un OU.
+- l'inverse d'une expression comprenant un OU est une expression contenant un ET.
 
 Table de Vérité NON(A ET B)
 Si A = 0, B = 0 Alors NON(A ET B) = NON A OU NON B = 1  (Par exemple NON(Age = 17 ET Nationalite='Français') devient Age != 17 OU Nationalite != 'Francais'  )
@@ -73,18 +75,3 @@ Si A = 1, B = 0 Alors NON(A OU B) = NON A ET NON B = 0  (Par exemple NON(Age = 2
 Si A = 1, B = 1 Alors NON(A OU B) = NON A ET NON B = 0  (Par exemple NON(Age = 22 OU Nationalite='Belge')    devient Age != 22 ET Nationalite != 'Belge'     )
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-On va prendre un exemple.

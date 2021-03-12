@@ -1,0 +1,87 @@
+Le binaire
+Qu'est-ce que le binaire ?
+Le système binaire est le système de numérotation utilisant la base 2. On utilise deux chiffres pour le système binaire, le 0 et le 1. On les nomme couramment bit.
+En informatique le bit est en permanence utilisé dans les circuits de l'ordinateur, la mémoire, le microprocesseur. Il correspond à un état électrique: le courant passe (1), il ne passe pas (0). 
+Dans la base 10, on utilise les chiffres de 0 à 9. Dès qu'on arrive à 10, on atteint la base.
+
+En binaire la base est 2 qu'on n'écrit jamais car on n'a que les chiffres 0 et 1.
+0 en base 10 = 0 en binaire
+1 en base 10 = 1 en binaire
+2 en base 10 = 10 en binaire
+3 en base 10 = 11 en binaire
+4 en base 10 = 11 en binaire
+5 en base 10 = 100 en binaire
+
+Avec 1 bit  on a 2  valeurs possibles soit 0 ou 1
+Avec 2 bits on a 4  valeurs possibles soit 00, 01, 10, 11
+Avec 3 bits on a 8  valeurs possibles soit 000, 001, 010, 011, 100, 101, 110, 111
+Avec 4 bits on a 16 valeurs possibles.
+En fait, le nombre de valeurs possibles pour un nombre de bits donnés se calcule par 2 exposant ce nombre de bits: 2 exposant 2 = 4, 2 exposant 3 = 8, etc.
+
+Avant de commencer les conversions de la base 2 regardons la base 10 que nous connaissons depuis toujours.
+On va voir que n'importe quel nombre en base 10 peut s'exprimer sous la somme de puissances de 10.
+Prenons les premières puissances de 10. J'utiliserais par facilité la lettre E pour exprimer l'exposant. Exemple: 2E3 = 2 puissance 3 c'est à dire 2 au cube.
+10E0 = 1
+10E1 = 10
+10E2 = 100
+10E3 = 1000
+
+Ensuite, quelle est la somme des puissances de 10 pour le nombre 77 en base 10 ?
+77 =  70 + 7 
+77 = 7 * 10E1 + 7 * 10E0 
+
+1254 = 1000 + 200 + 50 + 4
+1254 = 1 * 10E3 + 2 * 10E2 + 5 * 10E1 + 4 * 10E0
+
+728 = 700 + 20 + 8 
+728 = 7 * 10E2 + 2 * 10E1 + 8 * 10E0
+
+En suivant la même analogie, il devrait être possible d'exprimer n'importe quel nombre binaire en puissances de 2.
+Voyons avant les 10 premières puissances de 2
+2E0 = 1
+2E1 = 2
+2E2 = 4
+2E3 = 8
+2E4 = 16
+2E5 = 32
+2E6 = 64
+2E7 = 128
+2E8 = 256
+2E9 = 512
+2E10=1024
+
+Convertir un nombre décimal en binaire
+On va essayer de convertir le nombre 77 en binaire. Pour cela on va essayer de décomposer le nombre 77 en une somme de puissances de 2.
+77 = 64 + 13
+77 = 64 + 8 + 4 + 1
+77 = 1 * 2E6 + 0 * 2E5 + 0 * 2E4 + 1 * 2E3 + 1 * 2E2 + 0 * 2E1 + 1 * 2E0
+77 en base 10 = 100110110 en binaire/en base 2
+
+Convertir un nombre binaire en décimal
+110101 = 1 * 2E5 + 1 * 2E4 + 0 * 2E3 + 1 * 2E2 + 0 * 2E1 + 1 * 2E0
+110101 = 32 + 16 + 4 + 1
+110101 = 53
+
+Définition ASCII
+Il s’agit d‘un encodage de caractères, l’American Standard Code for Information Interchange, précurseur américain de l’ISO 646 (qui définit des ensembles de caractères à l’international).
+ASCII est un code de 7 bits définissant 128 caractères. L’encodage se compose de 33 caractères non imprimables et 95 caractères imprimables.
+Il a ensuite été étendu sur 8 bits donnant ainsi 258 caractères. On peut faire apparaître les caractères en tapant son code ASCII. Il faut appuyer sur la touche ALT et taper un code ascii. Par exemple: ALT 65 donnera un A et ALT 82 un R.
+Nombres (30–39)
+Lettres (65–90 / 97–122)
+Espace (32)
+╔════════════════╗
+║ Joli cadre     ║
+╠════════════════╣
+║ (c) Eqla 2021  ║
+╚════════════════╝
+╣ (185)
+║ (186)
+╗ (187)
+╝ (188)
+╚ (200)
+╔ (201)
+╠ (204)
+═ (205)
+╬ (206)
+
+
