@@ -1,5 +1,4 @@
 Algèbre de Boole (1854)
-Est-ce que ça vous parle ? En avez-vous déjà entendu parler ?
 L'algèbre de boole ou calcul booléen est une branche des mathématiques qui traîte de la logique en termes de variables, d'opérateurs et de fonctions sur les variables logiques. Dans notre cas, ça nous sera utile pour faire ce qu'on appelle des conditions. C'est à dire vérifier la valeur logique d'une variable ou expression dans nos programmes informatiques.
 
 Par exemple dans un programme informatique on vous demande votre age et votre nationalité. Supposons que vous répondiez 22 ans et 'Belge'.

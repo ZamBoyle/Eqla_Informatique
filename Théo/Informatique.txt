@@ -12,7 +12,6 @@ Abaque (grecs, Romains, Egyptiens) / boulier compteur / boulier rudimentaire du 
 
 1801, l’invention du métier à tisser de Jospeh Marie Jacquard. Basé sur des cartes performées. Avant le motif du métier à tisser était figé. Il a eu l'idée d'avoir un métier à tisser "universel" qui pourrait tisser n'importe quel motif programmé sur ces cartes.
 
-
 1820, Charles Babbage (1791-1871) commence à construire sa machine à différences, inspiré par le métier à tisser de Jacquard. Il s'adjoint l'aide d'une jeune femme, Ada Lovelace (1815-1852), brillante mathématicienne qui l'aide à concevoir les « diagrammes » pour faire fonctionner la machine. Il semblerait que c'est Lady Ada qui conçoit le premier langage informatique pour la machine à différences de Babbage. On dit souvent que le premier programmeur était une femme et non un homme. :) Elle ne sera jamais terminée faute de moyens. Un de ses fils la termina et fit une démonstration  En 1991, On a pu la reconstruire à partir de ses plans et elle fonctionne parfaitement.
 
 1854, Algèbre de Boole.
