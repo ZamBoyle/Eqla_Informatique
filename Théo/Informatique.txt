@@ -32,15 +32,18 @@ C'est la mémoire qui fut la préocupation de toutes les personnes qui avaient l
 
 1952, le premier livre de programmation.
 
-1957, terme informatique est inventé par un ingénieur allemand Karl Steinbuch: informatik
+1955, terme ordinateur est proposé par IBM en France.
 
-1955, terme ordinateur 
+1957, terme informatique est inventé par un ingénieur allemand Karl Steinbuch: informatik
 
 1962, Philippe Dreyfus qui travaille chez Bull utilise pour la première fois en France le terme « Informatique »2 pour son entreprise « Société d'informatique appliquée » (SIA). On dit que c'est un mot valise qui agglomère « information » et « automatique », pour désigner le traitement automatique des données.
 
 En 1966, l'Académie française consacre l'usage officiel du mot pour désigner la « science du traitement de l'information ». La presse, l'industrie et le milieu universitaire l'adoptent dès cette époque.
 
+
 Références intéressantes:
 1) Une brève histoire de l'informatique, de 1945 à nos jours (2018) par Pierre Mounier-Kuhn, historien, chargé de recherches au CNRS:  https://www.youtube.com/watch?v=dcN9QXxmRqk  
-2) Le film Imitation Game (2014): Film sur Alan Turing et sa machine Colossus qui cassa Enigma.
-3) Les pirates de la Silicon Valley (1999): Histoire de Microsoft & Apple (très intéressant).
+2) C'est pas sorcier, "Ordinateur tout un programme": https://www.youtube.com/watch?v=c96KP5jZVYk
+3) L'esprit sorcier, "L'ordinateur quantiquie": https://www.youtube.com/watch?v=2aCS5mEeiwg
+4) Le film, Imitation Game (2014): Film sur Alan Turing et sa machine Colossus qui cassa Enigma.
+5) Le film, Les pirates de la Silicon Valley (1999): Histoire de Microsoft & Apple (très intéressant).
