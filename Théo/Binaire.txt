@@ -8,8 +8,8 @@ En binaire la base est 2. Mais on n'écrit jamais 2 car on n'a que les chiffres 
 1 en base 10 = 1 en binaire
 2 en base 10 = 10 en binaire
 3 en base 10 = 11 en binaire
-4 en base 10 = 11 en binaire
-5 en base 10 = 100 en binaire
+4 en base 10 = 100 en binaire
+5 en base 10 = 101 en binaire
 
 Avec 1 bit  on a 2  valeurs possibles soit 0 ou 1
 Avec 2 bits on a 4  valeurs possibles soit 00, 01, 10, 11
