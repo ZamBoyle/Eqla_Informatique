@@ -108,23 +108,13 @@ Ca revient à dire que c'est 16 x 16 = 256 tout comme 2E8 = 1 Octet = 8 bits et 
 
 1 octet = 2 chiffres hexadécimaux
 
-un entier en mémoire c'est 4 octets
-
 4 octets = 8 chiffres hexadécimaux
 
 8 chiffres hexadécimaux (4 octets) , 10 chiffres hexadécimaux (5 octets) ou 16 chiffres hexadécimaux (8 octets).
 
 Une adresse est souvent codée sous forme de 8 chiffres hexadécimaux (4 octets) dans le cas d'une architecture 32 bits. Donc 2E32 octets accessibles pour stocker en mémoire.
 
-Donc je ne veux pas vous ennuyer longtemps avec l'hexadécimal mais il est vraiment important en informatique et dans le stockage de vos variables en mémoire.
-
-https://www.quora.com/How-many-hexadecimal-digits-are-needed-to-represent-a-computer-memory-location
-
-
-Le python et d'autres langages sont des langages dits de hauts niveaux car on n'est pas très proche de la machine. Et on ne manipule pas très souvent la mémoire.
-Et tant mieux pour vous car ça peut être un vrai casse-tête la gestion de la mémoire.
-
-La taille maximale d'une mémoire est fonction de ce qu'on appelle l'architecture: soit par exemple 32bits ou 64 bits.
+La taille maximale d'une mémoire est fonction de ce qu'on appelle l'architecture: (32bits ou 64 bits)
 ================================================================================
 1) Dans le cas d'une architecture 32 bits.
 On peut adresser 2E32 octets en mémoire = 4 294 967 296 octets adressables
@@ -136,7 +126,7 @@ En go comment on calcule ?
 
 Cependant on a trouvé une technique pour bypasser la limite des 4GB mais il faut que le CPU et l'OS supporte le PAE (Phyical Adress Extension) pour utiliser au-delà des 4GB de limitation.
 
-C'est pour ça qu'une version 64 bits de Windows est plus appropriée qu'une 32 bits rien que pour la quantité de mémoire.
+C'est pour ça qu'une version 64 bits de Windows est plus appropriée qu'une 32 bits rien que pour la gestion de la quantité de mémoire.
 
 2) Dans le cas d'une architecture 64 bits.
 On peut adresse 2E64 octets en mémoire = 18446744073709551616 octets adressables = 17179869184 go = 16777216  to = 16384 petaoctets  = 16 exaoctets. Gloupsssssss !
@@ -152,4 +142,4 @@ Pourquoi ?
 Prenons un disque dur de 100 Go = 100 x 1000 mo = 100 000 x 1000 ko = 100 000 000 x 1000 octets = 100 000 000 000 octets
 En fait, il ne fait que 93 Gio car 100 000 000 000 octets = 97 656 250 kio  = 95 367 mio = 93 gio
 
-Mon disque dur à la maison indique: 999.639.076.864 octets = 930 gio mais le constructeur dira certainement 999 go = 1 To
+Mon disque dur à la maison indique: 999.639.076.864 octets = 930 gio mais le constructeur indique 1 To car 999 go = +/- 1 To
