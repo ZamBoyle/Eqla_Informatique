@@ -31,7 +31,9 @@ Si A = 0, B = 0 Alors A ET B = 0  (Par exemple Age = 17 et Nationalite='Françai
 Si A = 0, B = 1 Alors A ET B = 0  (Par exemple Age = 17 et Nationalite='Belge')
 Si A = 1, B = 0 Alors A ET B = 0  (Par exemple Age = 22 et Nationalite='Français')
 Si A = 1, B = 1 Alors A ET B = 1  (Par exemple Age = 22 et Nationalite='Belge')
+
 Pour une meilleure lisibilité, l'utilisation de parenthèses est parfois nécessaire lorsque l'on chaîne les conditions: (Age > 18) ET (Nationalite == 'Belge') ou encore (Age > 18 ET Nationalite == 'Belge'). Lorsque vous utiliserez l'opérateur ET mixé à l'opérateur OU, l'utilisation des parenthèses rendra la lecture plus aisée.
+
 Table de Vérité de A OU B
 Si A = 0, B = 0 Alors A OU B = 0  (Par exemple Age = 17 OU Nationalite='Français')
 Si A = 0, B = 1 Alors A OU B = 1  (Par exemple Age = 17 OU Nationalite='Belge')
@@ -72,3 +74,7 @@ Si A = 0, B = 0 Alors NON(A OU B) = NON A ET NON B = 1  (Par exemple NON(Age = 1
 Si A = 0, B = 1 Alors NON(A OU B) = NON A ET NON B = 0  (Par exemple NON(Age = 17 OU Nationalite='Belge')    devient Age != 17 ET Nationalite != 'Belge'     )
 Si A = 1, B = 0 Alors NON(A OU B) = NON A ET NON B = 0  (Par exemple NON(Age = 22 OU Nationalite='Français') devient Age != 22 ET Nationalite != 'Francais'  )
 Si A = 1, B = 1 Alors NON(A OU B) = NON A ET NON B = 0  (Par exemple NON(Age = 22 OU Nationalite='Belge')    devient Age != 22 ET Nationalite != 'Belge'     )
+
+En programmation ET, OU et NON on les écrit:
+- python: ET = and, OU = or, NON = not
+- JavaScript, C, C#, PHP, Java: ET = &&, OU = ||, NON = !

@@ -1,0 +1,46 @@
+0  = 0 = 0000
+1  = 1 = 0001
+2  = 2 = 0010
+3  = 3 = 0011
+4  = 4 = 0100
+5  = 5 = 0101
+6  = 6 = 0110
+7  = 7 = 0111
+8  = 8 = 1000
+9  = 9 = 1001
+10 = A = 1010
+11 = B = 1011
+12 = C = 1100
+13 = D = 1101
+14 = E = 1110
+15 = F = 1111
+
+Convertir du binaire en Hexa
+10100001 = 
+11111 = 
+1111100 = 
+00110011 = 
+10001 = 
+111000101101 = 
+
+Convertir de l'hexa en décimal
+7A = 
+DD = 
+11F = 
+FF = 
+AA = 
+
+Convertir de l'hexa au binaire
+7A = 
+DD = 
+CACA = 
+FACADE = 
+7BAC = 
+ABBA = 
+
+Unités octets, kio, mio, gio
+8 bits = 
+240 bits = 
+2048 bits = 
+4194304 bits = 
+4E bits = 
