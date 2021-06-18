@@ -23,7 +23,7 @@ Les principales fonctionnalités de Laravel sont:
 - Les tests unitaires.
 
 <a name="framework"/>
-##2. Qu'est-ce qu'un Framework ? 
+## 2. Qu'est-ce qu'un Framework ? 
 
 <a name="installation"/>
 ## 3. Installation
