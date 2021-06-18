@@ -2,6 +2,7 @@
 ## Table des matières
 1. [Introduction à Laravel](#introduction).
 2. [Qu'est-ce qu'un Framework ?](#framework)
+3. [Installation](#installation).
 
 ## 1. Introduction à Laravel <a name="introduction"/>
 Laravel est un Framework web Open-Source écrit en PHP. Il est basé sur le modèle-vue-contrôleur ([MVC](https://fr.wikipedia.org/wiki/Mod%C3%A8le-vue-contr%C3%B4leur)) et est développé en [POO](https://fr.wikipedia.org/wiki/Programmation_orient%C3%A9e_objet).
@@ -45,7 +46,13 @@ Composer est un installer de bibliothèques PHP. Il est très facile à utiliser
 13. Appuyez sur Next.
 14. Appuyez sur Finish.
 ### 3.1.2 Mac OS
-
+1. Télécharger composer.phar
+```console
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php -r "if (hash_file('sha384', 'composer-setup.php') === '756890a4488ce9024fc62c56153228907f1545c228516cbf63f885e036d37e9a59d27d63f46af1d4d07ee0f76181c7d3') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+php composer-setup.php
+php -r "unlink('composer-setup.php');"
+```
 ### 3.2 Installation via l'installer Laravel
 ### 3.2.1 Windows 
 ### 3.2.2 Mac OS
