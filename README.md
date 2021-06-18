@@ -3,7 +3,7 @@
 1. [Introduction à Laravel](#introduction).
 2. [Qu'est-ce qu'un Framework ?](#framework)
 
-##1. Introduction à Laravel <a name="introduction"/>
+## 1. Introduction à Laravel <a name="introduction"/>
 Laravel est un Framework web Open-Source écrit en PHP. Il est basé sur le modèle-vue-contrôleur ([MVC](https://fr.wikipedia.org/wiki/Mod%C3%A8le-vue-contr%C3%B4leur)) et est développé en [POO](https://fr.wikipedia.org/wiki/Programmation_orient%C3%A9e_objet).
 
 C'est Taylor Otwell qui l'a écrit en juin 2011: Laravel a fêté ses 10 ans !
