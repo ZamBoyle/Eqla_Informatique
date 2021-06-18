@@ -4,11 +4,11 @@
   - [2. Qu'est-ce qu'un Framework ?](#2-quest-ce-quun-framework-)
   - [3. Installation](#3-installation)
     - [3.1 Installation via Composer](#31-installation-via-composer)
-    - [3.1.1 Windows](#311-windows)
-    - [3.1.2 Mac OS](#312-mac-os)
+      - [3.1.1 Windows](#311-windows)
+      - [3.1.2 Mac OS](#312-mac-os)
     - [3.2 Installation via l'installer Laravel](#32-installation-via-linstaller-laravel)
-    - [3.2.1 Windows](#321-windows)
-    - [3.2.2 Mac OS](#322-mac-os)
+      - [3.2.1 Windows](#321-windows)
+      - [3.2.2 Mac OS](#322-mac-os)
 
 ## 1. Introduction à Laravel 
 Laravel est un Framework web Open-Source écrit en PHP. Il est basé sur le modèle-vue-contrôleur ([MVC](https://fr.wikipedia.org/wiki/Mod%C3%A8le-vue-contr%C3%B4leur)) et est développé en [POO](https://fr.wikipedia.org/wiki/Programmation_orient%C3%A9e_objet).
