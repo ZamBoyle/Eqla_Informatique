@@ -1,10 +1,9 @@
-# Eqla - Formation Laravel
-## Table des matières
+#Eqla - Formation Laravel
+##Table des matières
 1. [Introduction à Laravel](#introduction).
 2. [Qu'est-ce qu'un Framework ?](#framework)
 
-<a name="introduction"/>
-## 1. Introduction à Laravel
+##1. Introduction à Laravel <a name="introduction"/>
 Laravel est un Framework web Open-Source écrit en PHP. Il est basé sur le modèle-vue-contrôleur ([MVC](https://fr.wikipedia.org/wiki/Mod%C3%A8le-vue-contr%C3%B4leur)) et est développé en [POO](https://fr.wikipedia.org/wiki/Programmation_orient%C3%A9e_objet).
 
 C'est Taylor Otwell qui l'a écrit en juin 2011: Laravel a fêté ses 10 ans !
@@ -22,11 +21,10 @@ Les principales fonctionnalités de Laravel sont:
 - La gestion des exceptions.
 - Les tests unitaires.
 
-<a name="framework"/>
-## 2. Qu'est-ce qu'un Framework ? 
+## 2. Qu'est-ce qu'un Framework ? <a name="framework"></a>
 
-<a name="installation"/>
-## 3. Installation
+## 3. Installation <a name="installation"></a>
+Il est possible d'installer Laravel de différentes manières: [Docker](https://fr.wikipedia.org/wiki/Docker_(logiciel)), [Composer](https://getcomposer.org/Composer-Setup.exe)
 ### 3.1 Installation via Composer
 Avant tout il va falloir installer Composer sur votre machine.
 Composer est un installer de bibliothèques PHP. Il est très facile à utiliser et permettra d'ajouter aisément des bibliothèques à vos projets PHP.
