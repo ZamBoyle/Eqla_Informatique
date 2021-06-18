@@ -1,10 +1,16 @@
 # Eqla - Formation Laravel
 ## Table des matières
-1. [Introduction à Laravel](#introduction).
-2. [Qu'est-ce qu'un Framework ?](#framework)
-3. [Installation](#installation).
+  - [1. Introduction à Laravel](#1-introduction-à-laravel)
+  - [2. Qu'est-ce qu'un Framework ?](#2-quest-ce-quun-framework-)
+  - [3. Installation](#3-installation)
+    - [3.1 Installation via Composer](#31-installation-via-composer)
+    - [3.1.1 Windows](#311-windows)
+    - [3.1.2 Mac OS](#312-mac-os)
+    - [3.2 Installation via l'installer Laravel](#32-installation-via-linstaller-laravel)
+    - [3.2.1 Windows](#321-windows)
+    - [3.2.2 Mac OS](#322-mac-os)
 
-## 1. Introduction à Laravel <a name="introduction"/>
+## 1. Introduction à Laravel 
 Laravel est un Framework web Open-Source écrit en PHP. Il est basé sur le modèle-vue-contrôleur ([MVC](https://fr.wikipedia.org/wiki/Mod%C3%A8le-vue-contr%C3%B4leur)) et est développé en [POO](https://fr.wikipedia.org/wiki/Programmation_orient%C3%A9e_objet).
 
 C'est Taylor Otwell qui l'a écrit en juin 2011: Laravel a fêté ses 10 ans !
@@ -22,9 +28,9 @@ Les principales fonctionnalités de Laravel sont:
 - La gestion des exceptions.
 - Les tests unitaires.
 
-## 2. Qu'est-ce qu'un Framework ? <a name="framework"></a>
+## 2. Qu'est-ce qu'un Framework ?
 
-## 3. Installation <a name="installation"></a>
+## 3. Installation
 Il est possible d'installer Laravel de différentes manières: [Docker](https://fr.wikipedia.org/wiki/Docker_(logiciel)), [Composer](https://getcomposer.org/Composer-Setup.exe)
 ### 3.1 Installation via Composer
 Avant tout il va falloir installer Composer sur votre machine.
@@ -33,7 +39,7 @@ Composer est un installer de bibliothèques PHP. Il est très facile à utiliser
 ### 3.1.1 Windows
 1. Allez à l'url suivante: [https://getcomposer.org/Composer-Setup.exe](https://getcomposer.org/Composer-Setup.exe).
 2. Attendez la fin du téléchargement.
-3. Installez le programme téléchargé: Composer-Setup.exe
+3. Exécutez le programme téléchargé: Composer-Setup.exe
 4. Cliquez sur "Install for all users (recommanded)"
 5. Cliquez Sur "Oui" à la question:"Voulez-vous autoriser cette application à apporter des modifications à votre appareil ?"
 6. Installation Options: Cliquez sur "Next"
