@@ -1,10 +1,10 @@
-#Eqla - Formation Laravel
-##Table des matières
+# Eqla - Formation Laravel
+## Table des matières
 1. [Introduction à Laravel](#introduction).
 2. [Qu'est-ce qu'un Framework ?](#framework)
 
 <a name="introduction"/>
-##1. Introduction à Laravel
+## 1. Introduction à Laravel
 Laravel est un Framework web Open-Source écrit en PHP. Il est basé sur le modèle-vue-contrôleur ([MVC](https://fr.wikipedia.org/wiki/Mod%C3%A8le-vue-contr%C3%B4leur)) et est développé en [POO](https://fr.wikipedia.org/wiki/Programmation_orient%C3%A9e_objet).
 
 C'est Taylor Otwell qui l'a écrit en juin 2011: Laravel a fêté ses 10 ans !
@@ -26,12 +26,12 @@ Les principales fonctionnalités de Laravel sont:
 ##2. Qu'est-ce qu'un Framework ? 
 
 <a name="installation"/>
-##3. Installation
-###3.1 Installation via Composer
+## 3. Installation
+### 3.1 Installation via Composer
 Avant tout il va falloir installer Composer sur votre machine.
 Composer est un installer de bibliothèques PHP. Il est très facile à utiliser et permettra d'ajouter aisément des bibliothèques à vos projets PHP.
 
-###3.1.1 Windows
+### 3.1.1 Windows
 1. Allez à l'url suivante: [https://getcomposer.org/Composer-Setup.exe](https://getcomposer.org/Composer-Setup.exe).
 2. Attendez la fin du téléchargement.
 3. Installez le programme téléchargé: Composer-Setup.exe
@@ -46,8 +46,8 @@ Composer est un installer de bibliothèques PHP. Il est très facile à utiliser
 12. Appuyez sur Install.
 13. Appuyez sur Next.
 14. Appuyez sur Finish.
-###3.1.2 Mac OS
+### 3.1.2 Mac OS
 
-###3.2 Installation via l'installer Laravel
-###3.2.1 Windows 
-###3.2.2 Mac OS
+### 3.2 Installation via l'installer Laravel
+### 3.2.1 Windows 
+### 3.2.2 Mac OS
