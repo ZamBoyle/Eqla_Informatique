@@ -80,7 +80,7 @@ Le terme informatique est inventé par un ingénieur allemand Karl Steinbuch: in
 
 ## 1962 - terme informatique en français
 
-Philipe Dreyfus qui travaille chez Bull utilise pour la première fois en France le terme « Informatique »2 pour son entreprise « Société d'informatique appliquée » (SIA). On dit que c'est un mot valise qui agglomère « information » et « automatique », pour désigner le traitement automatique des données.
+Philipe Dreyfus qui travaille chez Bull utilise pour la première fois en France le terme « Informatique » pour son entreprise « Société d'informatique appliquée » (SIA). On dit que c'est un mot valise qui agglomère « information » et « automatique », pour désigner le traitement automatique des données.
 
 ## 1966 - accepté par l'Académie française
 
